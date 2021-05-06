@@ -1,0 +1,31 @@
+{
+    "states": [
+        {
+            "id": 1,
+            "name": "Washington",
+            "postalCode": "WA",
+            "routes":[
+                {
+                    "name": "AAAA",
+                    "difficulty": "5.6"
+                },
+                {
+                    "name": "BBB",
+                    "difficulty": "5.8"
+                }
+            ]
+        },
+        
+        {
+            "id": 2,
+            "name": "Oregon",
+            "postalCode": "OR",
+            "routes":[
+                
+            ]
+        }
+    ]
+        
+    
+}
+
