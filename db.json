@@ -1,28 +1,25 @@
 {
-    "states": [
+    "routes": [
         {
             "id": 1,
-            "name": "Washington",
-            "postalCode": "WA",
-            "routes":[
-                {
-                    "name": "AAAA",
-                    "difficulty": "5.6"
-                },
-                {
-                    "name": "BBB",
-                    "difficulty": "5.8"
-                }
-            ]
+            "state": "Washington",
+            "name": "AAAA",
+            "difficulty": "5.6"
         },
         
         {
             "id": 2,
-            "name": "Oregon",
-            "postalCode": "OR",
-            "routes":[
-                
-            ]
+            "state": "Oregon",
+            "name":"bbbb",
+            "difficulty":"5.10"
+
+        },
+        
+        {
+            "id": 3,
+            "state": "California",
+            "name": "cccc",
+            "difficulty":"5.11"
         }
     ]
         

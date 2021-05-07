@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
-export default class StateForm extends Component {
+export default class RouteForm extends Component {
+    
     render() {
         return (
             <div>
-                <h3>I am a Form</h3>
+                <h3>New Route form</h3>
             </div>
         )
     }

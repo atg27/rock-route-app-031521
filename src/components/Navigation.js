@@ -22,30 +22,15 @@ const Navigation = () => {
             >Home</NavLink>
             
             <NavLink 
-                to="/states"
-                exact
-                style={link}
-                activeStyle={{
-                    background: "black"
-                }}
-            >States</NavLink>
-            
-            <NavLink 
-                to="/routes"
+                to="/climbingroutes"
                 exact
                 style={link}
                 activeStyle={{
                     background: "black"
                 }}
             >Routes</NavLink>
-            <NavLink 
-                to="/beta"
-                exact
-                style={link}
-                activeStyle={{
-                    background: "black"
-                }}
-            >Route Beta</NavLink>
+            
+    
         </div>
     )
 }
