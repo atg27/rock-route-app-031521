@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const NewButton = () => {
+export const NewButton = () => {
     return (
         <div>
             <Link to={'states/new'}>
@@ -10,4 +10,3 @@ const NewButton = () => {
         </div>
     )
 }
-export default NewButton

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import NewButton from './NewButton'
+import { NewButton } from '../components/NewButton'
 
 export default class States extends Component {
 
@@ -21,11 +21,11 @@ export default class States extends Component {
 
     render() {
         
-        const states = this.state.states.map(state => <li>{state.name}{/* will be own component  */}</li>)
+        const states = this.state.states.map((state, index) => <li key={index}>{state.name}{/* will be own component  */}</li>)
 
         return (
             <div>
-                <h3>States</h3>
+                <h3>States Page</h3>
                 <hr/>
                 {states}
                 <br/>
