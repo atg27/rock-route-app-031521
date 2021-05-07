@@ -7,6 +7,7 @@ export default class App extends Component {
   render() {
     return (
       <Router>
+        <Navigation/> 
         <div className="App">
           <Switch>
             <Route exact="/" component={Home}/>

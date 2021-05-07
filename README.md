@@ -1,1 +1,1 @@
-update readme
+This is a Client-Side Application built with React. 
