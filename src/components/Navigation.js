@@ -11,7 +11,7 @@ const link ={
 
 const Navigation = () => {
     return (
-        <div>
+        <div style={{textAlign: 'center'}}>
             <NavLink 
                 to="/"
                 exact
@@ -20,6 +20,7 @@ const Navigation = () => {
                     background: "black"
                 }}
             >Home</NavLink>
+            
             <NavLink 
                 to="/states"
                 exact
@@ -28,6 +29,7 @@ const Navigation = () => {
                     background: "black"
                 }}
             >States</NavLink>
+            
             <NavLink 
                 to="/routes"
                 exact
