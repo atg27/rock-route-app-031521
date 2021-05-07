@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import NewButton from './NewButton'
 
 export default class States extends Component {
 
@@ -20,7 +21,7 @@ export default class States extends Component {
 
     render() {
         
-        const states = this.state.states.map(state => <li>state.name{/* will be own component  */}</li>)
+        const states = this.state.states.map(state => <li>{state.name}{/* will be own component  */}</li>)
 
         return (
             <div>
@@ -28,7 +29,7 @@ export default class States extends Component {
                 <hr/>
                 {states}
                 <br/>
-                <button>New State{/* will be own component  reroute to state form*/}</button> own
+                <NewButton />
             </div>
         )
     }

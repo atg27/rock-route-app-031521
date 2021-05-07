@@ -5,6 +5,7 @@ import Navigation from './components/Navigation'
 import States from './containers/States'
 import Routes from './containers/Routes'
 import Beta from './containers/Beta'
+import StateForm from './containers/StateForm'
 
 export default class App extends Component {
   render() {
@@ -13,10 +14,12 @@ export default class App extends Component {
         <Navigation/> 
         <div className="App">
           <Switch>
-            <Route exact="/" component={Home}/>
-            <Route exact="/states" component={States}/>
-            <Route exact="/routes" component={Routes}/>
-            <Route exact="/beta" component={Beta}/>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/states" component={States}/>
+            <Route exact path="/states/new" component={StateForm}/>
+            {/* <Route exact path="/states/:id" component={State}/> */}
+            <Route exact path="/routes" component={Routes}/>
+            <Route exact path="/beta" component={Beta}/>
           </Switch>
         </div>
 
