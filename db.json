@@ -23,6 +23,12 @@
       "difficulty": "5.10",
       "name": "vehicular basalt",
       "id": 4
+    },
+    {
+      "state": "California",
+      "difficulty": "5.2-",
+      "name": "Dawn Wall",
+      "id": 5
     }
   ]
 }

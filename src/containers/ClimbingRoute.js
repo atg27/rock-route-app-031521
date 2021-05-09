@@ -26,9 +26,14 @@ export default class ClimbingRoute extends Component {
 
         return (
             <div>
-                <h3>Route Info:</h3>
+                <h2>Route Information:</h2>
                 <hr/>
-                {this.state.route.name}
+                <ul>
+                    <h3 style={{color:"Red", fontSize: "20px", textTransform: "uppercase"}}>{this.state.route.name}</h3>
+                    <h4>GRADE: {this.state.route.difficulty}</h4>
+                    <h4>STATE: {this.state.route.state}</h4>
+                        
+                </ul>
             </div>
         )
     }
