@@ -27,7 +27,7 @@ export default class ClimbingRoute extends Component {
         return (
             <div>
                 <h3>Route Info:</h3>
-            
+                <hr/>
                 {this.state.route.name}
             </div>
         )

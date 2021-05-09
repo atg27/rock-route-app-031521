@@ -23,11 +23,15 @@ export default class ClimbingRoutes extends Component {
     render() {
         
         const routes = this.state.routes.map((route) => <ClimbingRouteLink route={route} key={route.id}/>)
+        
         return (
             <div>
                 <h3>Routes Page</h3>
                 <hr/>
-                {routes}
+                    <div>
+                    {routes}
+                    </div>
+                
                 <br/>
                 <NewButton />
             </div>
