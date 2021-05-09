@@ -5,7 +5,7 @@ export const NewButton = () => {
     return (
         <div>
             <Link to={'climbingroutes/new'}>
-                <button> New Route</button>
+                <button> Submit New Route</button>
             </Link>
         </div>
     )
