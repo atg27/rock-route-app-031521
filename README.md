@@ -1,1 +1,1 @@
-This is a Client-Side Application built with React. 
+This is a Client-Side Application built with React. This application uses RESTful routing and 
