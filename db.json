@@ -31,28 +31,10 @@
       "id": 5
     },
     {
-      "state": "Washington",
+      "state": "California",
       "difficulty": "5.9",
       "name": "test",
       "id": 6
-    },
-    {
-      "state": "a",
-      "difficulty": "a",
-      "name": "a",
-      "id": 7
-    },
-    {
-      "state": "Washington",
-      "difficulty": "5.10",
-      "name": "jessie",
-      "id": 8
-    },
-    {
-      "state": "a",
-      "difficulty": "a",
-      "name": "a",
-      "id": 9
     }
   ]
 }
