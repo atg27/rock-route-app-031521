@@ -35,6 +35,12 @@
       "difficulty": "5.9",
       "name": "test",
       "id": 6
+    },
+    {
+      "state": "Washington",
+      "difficulty": "5.10",
+      "name": "Air Guitar",
+      "id": 7
     }
   ]
 }
