@@ -36,22 +36,28 @@ export default class ClimbingRouteForm extends Component {
 
 
     render() {
+
+        const {
+            state: { state, difficulty, name }
+        } = this.state
+
         return (
+            
             <div>
                 <h3>Submit New Route Here:</h3>
                 <hr/>
                 <form onSubmit={this.handleSubmit}>
                     <label>Name:</label> 
                     <br/>
-                    <input name="name" onChange={this.handleChange} value={this.state.name} type="text"></input>
+                    <input name="name" onChange={this.handleChange} value={name} type="text"></input>
                     <br/>
                     <label>State:</label> 
                     <br/>
-                    <input name="state" onChange={this.handleChange} value={this.state.state} type="text"></input>
+                    <input name="state" onChange={this.handleChange} value={state} type="text"></input>
                     <br/>
                     <label>Difficulty:</label> 
                     <br/>
-                    <input name="difficulty" onChange={this.handleChange} value={this.state.difficulty} type="text"></input>
+                    <input name="difficulty" onChange={this.handleChange} value={difficulty} type="text"></input>
                     <br/>
                     <br/>
                     <input type="submit"/>
