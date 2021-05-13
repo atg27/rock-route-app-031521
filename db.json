@@ -41,6 +41,12 @@
       "difficulty": "5.10",
       "name": "Air Guitar",
       "id": 7
+    },
+    {
+      "state": "Nevada",
+      "difficulty": "5.11",
+      "name": "test",
+      "id": 8
     }
   ]
 }
