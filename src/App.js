@@ -20,7 +20,7 @@ export default class App extends Component {
             <Route path="/climbingroutes/:id" component={ClimbingRoute}/>
           </Switch>
         </div>
-
+      
       </Router>
 
     )

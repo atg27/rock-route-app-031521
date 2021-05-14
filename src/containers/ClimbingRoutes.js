@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { NewButton } from '../components/NewButton'
 import { ClimbingRouteLink } from '../components/ClimbingRouteLink'
+import { FilterButton } from '../components/FilterButton'
 
 export default class ClimbingRoutes extends Component {
 
@@ -20,10 +21,17 @@ export default class ClimbingRoutes extends Component {
         })
     } 
 
+    handleClick = (e) => {
+        console.log("working")
+       const filteredroute = this.state.routes.filter(route => route.state === "Washington")
+       this.setState({routes: [filteredroute]})
+    }
+
     render() {
         
         const routes = this.state.routes.map((route) => <ClimbingRouteLink route={route} key={route.id}/>)
         
+
         return (
             <div>
                 <h3>Routes Page</h3>
@@ -34,6 +42,7 @@ export default class ClimbingRoutes extends Component {
                 
                 <br/>
                 <NewButton />
+                <FilterButton onFilter={this.handleClick}/>
             </div>
         )
     }

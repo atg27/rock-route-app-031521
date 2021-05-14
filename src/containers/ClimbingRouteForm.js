@@ -26,10 +26,9 @@ export default class ClimbingRouteForm extends Component {
         .then(res => res.json())
         .then(data => {
             console.log("New Route", data)
-            this.props.history.push('/climbingroutes')
+            // this.props.history.push('/climbingroutes')
+            this.props.history.push(`/climbingroutes/${data.id}`)
         })
-        alert("Route Posted!")
-
     }
 
 
